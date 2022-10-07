@@ -23,7 +23,7 @@
                     <td><?php echo $dados['email']."<br>";?></td>
                     <td><?php echo $dados['idade']."<br>";?></td>
                     <td><a href="editar.php?id=<?php echo $dados['id']; ?>">Editar</a></td>
-                    <td><a href="deletar.php">Deletar</a></td>
+                    <td><a href="php_action/delete.php?id=<?php echo $dados['id']; ?>">Deletar</a></td>
                 </tr>
             </tbody>
     <?php //inicio php
